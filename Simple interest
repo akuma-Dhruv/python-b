@@ -1,0 +1,8 @@
+# program to calculate simple interest in python 
+p = float(input("Enter the principal amount: "))
+t = float(input("Enter Time in years: "))
+r = float(input("Enter Interest rate(%): "))
+ 
+si = (p * t * r) / 100
+ 
+print("Simple Interest = ",si)
